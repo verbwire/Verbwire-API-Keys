@@ -3,7 +3,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <div className="mx-auto my-8 max-w-3xl text-center">
+      <div className="mx-auto my-8 max-w-3xl text-center text-white">
+        <img src="/logo.svg" className="h-12 mx-auto my-6" />
         <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
           Public Restricted Keys
         </h1>
@@ -23,8 +24,8 @@ export default function Home() {
         </p>
         <p>
           <span className="text-blue-500">Step 2: &nbsp;</span>
-          Create a scope for the key according to purpose (To keep your Key usage
-          safe 🤫).
+          Create a scope for the key according to purpose (To keep your Key
+          usage safe 🤫).
         </p>
         <p>
           <span className="text-blue-500">Step 3: &nbsp;</span>
@@ -32,7 +33,7 @@ export default function Home() {
         </p>
         <p>
           <span className="text-blue-500">Step 4: &nbsp;</span>
-          You're ready to use your Public Key and make API calls. 🎉
+          You&apos;re ready to use your Public Key and make API calls. 🎉
         </p>
       </div>
       <div className="flex flex-col items-center">

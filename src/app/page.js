@@ -6,7 +6,8 @@ export default function Home() {
     <>
       <section className="bg-gray-900 text-white">
         <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
-          <div className="mx-auto max-w-3xl text-center">
+          <div className="mx-auto max-w-3xl text-center items-center">
+            <img src="/logo.svg" className="h-16 mx-auto my-6"/>
             <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
               Understand Best Practices
               <span className="sm:block"> For Public/Private Keys </span>

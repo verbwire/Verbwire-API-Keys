@@ -34,6 +34,7 @@ export default function Home() {
   return (
     <>
       <div className="mx-auto my-8 max-w-3xl text-center">
+        <img src="/logo.svg" className="h-12 mx-auto my-6" />
         <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
           Restricted Keys - Example
         </h1>
