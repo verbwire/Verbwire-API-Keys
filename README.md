@@ -45,6 +45,8 @@ This scope enables the app to verify if a given wallet address holds a particula
 
 Check out the deployed version of the app: [Verbwire - Best Practices for API Keys](https://verbwire-keys-bestpractices.vercel.app)
 
+For additional reference, you can also check out this video tutorial: [Best Practices for Verbwire API Keys Video](https://youtu.be/Hsqd38Zrlw4)
+
 That's it! You should now have the project set up and ready to use. If you have any questions or run into any issues, please feel free to reach out. Happy coding!
 
 
